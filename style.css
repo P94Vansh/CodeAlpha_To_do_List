@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background: linear-gradient(to bottom, #9ad4db, #63a7b8);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+.box{
+   width: 400px;
+    height: 520px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+p{
+    margin-top: 5px;
+}
+input{
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
+.head img{
+    width: 28px;
+}
+.Incomplete{
+    margin: 5px;
+    height: 345px;
+    position: relative;
+}
+.Incomplete ul li{
+    list-style: none;
+    background-color: rgba(255, 0, 0, 0.747);
+    padding: 2px 6px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-wrap: anywhere;
+}
+.task-done{
+    background: transparent;
+    border: 0.5px solid gray;
+    border-radius: 3px;
+    padding: 2px;
+    cursor: pointer;
+}
+.selecttasks{
+    cursor: pointer;
+}
+.highpriority{
+    height:38%;
+    overflow-y: hidden;
+}
+.middlepriority{
+    height: 38%;
+    overflow-y: hidden;
+}
+.lowpriority{
+    height:38%;
+    overflow-y: hidden;
+}
+.tick{
+    margin-right: 4px;
+    cursor: pointer;
+   
+}
+.cross{
+    cursor: pointer;
+}
+.tasktext{
+    overflow-x: hidden;
+    margin-right: 30px;
+}
+.listofpriority1{
+    position: relative;
+}

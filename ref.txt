@@ -1,0 +1,1 @@
+<li>Homework <div class="icons"><img class="tick" src="check.svg" alt=""><img src="trash.svg" alt=""></div></li>

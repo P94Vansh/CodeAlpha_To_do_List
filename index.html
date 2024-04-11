@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List||Task mastery, at your fingertips</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="head">
+                <h1>Todo List</h1>
+                <img src="todo.svg" alt="">
+            </div>
+            <p>Make each day your masterpiece.</p>
+            <input type="text" placeholder="Enter your Task here...">
+            <select class="selecttasks" name="task" id="tasks">
+                <option value="default-value" hidden selected disabled>Priority</option>
+                <option value="High">High</option>
+                <option value="Middle">Middle</option>
+                <option value="Low">Low</option>
+            </select>
+            <button class="task-done">Add Task</button>
+            <div class="Incomplete">
+                <div class="highpriority">
+                    <div class="prioritycontent">
+                    <h3>High Priority</h3>
+                    <ul class="listofpriority1">
+                        
+
+                    </ul>
+                </div>
+                </div>
+                
+                <div class="middlepriority">
+                    <div class="prioritycontent">
+                    <h3>Middle Priority</h3>
+                    <ul class="listofpriority2" 2>
+
+                    </ul>
+                </div>
+            </div>
+                <div class="lowpriority">
+                    <div class="prioritycontent">
+                    <h3>Low Priority</h3>
+                    <ul class="listofpriority3">
+
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
